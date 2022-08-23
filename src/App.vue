@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <!-- <dv-full-screen-container>content</dv-full-screen-container> -->
+    <DataV/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DataV from './components/datav';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DataV,
+  },
+  data(){
+    return {
+    }
   }
 }
 </script>
